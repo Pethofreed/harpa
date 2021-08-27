@@ -1,0 +1,25 @@
+.Navegation_items {
+  width: 87%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #b0bec5;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.Navegation_items li a{
+  color: #e7e7e7;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  font-size: 15px;
+}
+
+.Navegation_items li a:hover {
+  color: #e9da5d;
+}
